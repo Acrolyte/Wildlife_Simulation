@@ -142,23 +142,29 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
-  m_IsActive: 0
---- !u!208 &96349015
-NavMeshObstacle:
+  m_IsActive: 1
+--- !u!114 &96349015
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 96349014}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 5, y: 0, z: 5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7663f01c755e00e49b1bd08fc9bcb02d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theTree: {fileID: 1660870363849074962, guid: 3f3cb96e29ca0034e95141d64a8f25f6, type: 3}
+  xPos: 0
+  zPos: 0
+  x1: 0
+  x2: 1000
+  z1: 0
+  z2: 1000
+  y: 5
+  treeCount: 0
+  TotalTrees: 200
 --- !u!64 &96349016
 MeshCollider:
   m_ObjectHideFlags: 0
